@@ -6,7 +6,7 @@ app_email = "palkan@frappe.io"
 app_license = "AGPL-3.0"
 
 # Frappe version compatibility
-required_apps = ["frappe"]
+required_apps = []
 
 # DocTypes for which the app is the owner
 # Included in standard_queries by default
