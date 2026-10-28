@@ -56,3 +56,7 @@ doc_events = {
         "after_insert": "letters.letters.api.sending.strip_unsubscribe_sentence",
     },
 }
+
+# Expose method source code through the API discovery endpoints. Safe for open
+# source apps and helps API clients understand what a method does.
+expose_discovery_source = True
